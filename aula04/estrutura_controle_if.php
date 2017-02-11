@@ -9,7 +9,9 @@ echo "a is bigger than b";  // verdadeiro, imprime
 	
 if (($a - $b) > ($b * $a))
 echo "a is bigger than b";  // falso, não imprime
+
 */
+
 
 $a = true;
 $b = true;
