@@ -1,13 +1,8 @@
 <?php
 $numero = 0;
-
-do 
-
-{
+do {
 	echo $numero;
 	$numero ++;
-} 
-
-while ($numero <= 1);
+} while ( $numero <= 1 );
 
 ?>
