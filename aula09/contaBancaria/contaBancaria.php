@@ -9,7 +9,7 @@ class ContaBancaria
 	var $saldo = 0;
 	
 	/***
-	 * método retirar
+	 * metodo retirar
 	 * diminui o saldo em $quantia
 	 */
 	function retirar($quantia)
@@ -21,7 +21,7 @@ class ContaBancaria
 	}
 	
 	/***
-	 * método depositar
+	 * metodo depositar
 	 * aumenta o saldo em $quantia
 	 */
 	function depositar($quantia)
@@ -33,7 +33,7 @@ class ContaBancaria
 	}
 	
 	/***
-	 * método obterSaldo
+	 * metodo obterSaldo
 	 * retorna o saldo atual
 	 */
 	function obterSaldo()
@@ -52,11 +52,11 @@ class ContaBancaria
 		$this->dataDeCriacao = $dataDeCriacao;
 		$this->titular = $titular;
 		$this->senha = $senha;
-		// chamada a outro método da classe
+		// chamada a outro metodo da classe
 		$this->depositar($saldo);
 	}
 	/***
-	 * método destrutor
+	 * metodo destrutor
 	 * finaliza objeto
 	 */
 	function __destruct()

@@ -41,16 +41,16 @@ echo "\n";
 echo "Manipulando a conta de: {$conta_carlos->titular->nome} \n";
 
 $saldo = $conta_carlos->obterSaldo();
-echo "0 saldo atual é R\$ $saldo \n";
+echo "0 saldo atual e R\$ $saldo \n";
 
 $conta_carlos->depositar(20);
 
 $saldo = $conta_carlos->obterSaldo();
-echo "0 saldo atual é R\$ $saldo \n";
+echo "0 saldo atual e R\$ $saldo \n";
 
 $conta_carlos->retirar(10);
 
 $saldo = $conta_carlos->obterSaldo();
-echo "0 saldo atual é R\$ $saldo \n";
+echo "0 saldo atual e R\$ $saldo \n";
 
 ?>
