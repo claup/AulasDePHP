@@ -19,8 +19,8 @@ class Aplicacao
 	}
 }
 
-echo "Informacoes sobre a aplicacao\n";
-echo "====================================\n";
+echo "Informacoes sobre a aplicacao \n";
+echo "==================================== \n";
 Aplicacao::Sobre();
 
 ?>
