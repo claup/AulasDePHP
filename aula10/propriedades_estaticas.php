@@ -10,14 +10,14 @@ static $quantidade;
 	 * incrementa a quantidade de Aplicacoes
 	 */
 	
-	function __construct($Nome)
+	function __construct($nome)
 	{
 		
 		//incrementa propriedade estatica
 		
 		self::$quantidade ++;
-		$i = self::$quantiade;
-		echo "Nova Aplicacao nr. $i.$Nome\n";
+		$i = self::$quantidade;
+		echo "Nova Aplicacao nr. $i.$nome\n";
 		
 	}
 }

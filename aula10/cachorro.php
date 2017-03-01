@@ -12,14 +12,14 @@ class Cachorro
 		$this->nome = $nome;
 	}
 			
-		//intercepta atribuicao
-		function __set($propriedade,$valor)
-		{
-			if($propriedade == 'nascimento')
-			{			
+	//intercepta atribuicao
+	function __set($propriedade,$valor)
+	{
+		if($propriedade == 'nascimento')
+		{			
 
 			//verifica se valor e dividido em 3 partes separadas por '/'
-			if(count(explode('/','$valor'))==3)
+			if(count(explode('/', $valor))==3)
 			{
 				echo "Dado '$valor', atribuido a '$propriedade'\n";
 				$this->$propriedade = $valor;

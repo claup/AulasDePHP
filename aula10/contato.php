@@ -18,7 +18,7 @@ class Contato
 	//obtem informacoes de contato
 	function GetContato()
 	{
-		return "Nome: {$this->nome}, Telefone: {$this->telefone}, Email: {$this->email};
+		return "nome: {$this->nome}, telefone: {$this->telefone}, email: {$this->email}";
 	}
 	
 }

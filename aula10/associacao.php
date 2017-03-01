@@ -1,5 +1,6 @@
 <?php
 
+include_once 'contato.php';
 include_once 'fornecedor.php';
 include_once 'produto.php';
 
